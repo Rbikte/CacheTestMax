@@ -1,2 +1,4 @@
 /vendor
-/storage/*
+/storage/*.txt
+!/storage/.keep
+.phpunit.result.cache
