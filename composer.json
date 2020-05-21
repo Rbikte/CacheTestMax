@@ -1,0 +1,28 @@
+{
+  "name":"rinat/cache-test-max",
+  "description": "work with cache",
+  "authors": [
+    {
+      "name": "Rinat Biktimerov",
+      "email": "rinat.biktimerov@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : ">=7.1",
+    "ext-redis": ">=3.1.5",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+  },
+  "autoload": {
+    "psr-4": {
+      "CacheTestMax\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
